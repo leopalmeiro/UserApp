@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-UserAppApi<userappapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.userappapi.userappapi.UserAppApi",
+            "projectName": "userappapi",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserAppApi<userappapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.userappapi.UserAppApi",
+            "projectName": "userappapi",
+            "args": ""
+        }
+    ]
+}
