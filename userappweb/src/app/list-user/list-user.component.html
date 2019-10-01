@@ -7,9 +7,10 @@
         </tr>
     </thead>
     <tbody>
+        <div *ngFor="let user of listUser">
         <tr>
-            <td class="text-center"><img class="avatar" src="https://randomuser.me/api/portraits/lego/1.jpg" alt="avatar"></td>
-            <td class="text-center">palmeiro</td>
+            <td class="text-center"><img class="avatar" src="{{user.avatar}}" alt="avatar"></td>
+            <td class="text-center">{{user.name}}</td>
             <td >
                 <div class="table-icon-box">
                     <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
@@ -17,35 +18,7 @@
                 </div>
             </td>
         </tr>
-        <tr>
-                <td class="text-center"><img class="avatar" src="https://randomuser.me/api/portraits/lego/2.jpg" alt="avatar"></td>
-                <td class="text-center">palmeiro</td>
-                <td >
-                    <div class="table-icon-box">
-                        <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
-                        <div class="table-icon"><a href="#"><i class="fas fa-user-edit"></i></a></div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                    <td class="text-center"><img class="avatar" src="https://randomuser.me/api/portraits/lego/3.jpg" alt="avatar"></td>
-                    <td class="text-center">palmeiro</td>
-                    <td >
-                        <div class="table-icon-box">
-                            <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
-                            <div class="table-icon"><a href="#"><i class="fas fa-user-edit"></i></a></div>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                        <td class="text-center"><img class="avatar" src="https://randomuser.me/api/portraits/lego/4.jpg" alt="avatar"></td>
-                        <td class="text-center">palmeiro</td>
-                        <td >
-                            <div class="table-icon-box">
-                                <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
-                                <div class="table-icon"><a href="#"><i class="fas fa-user-edit"></i></a></div>
-                            </div>
-                        </td>
-                    </tr>
+    </div>
+      
     </tbody>
 </table>
