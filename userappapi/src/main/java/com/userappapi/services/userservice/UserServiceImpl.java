@@ -21,10 +21,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
-        users.add(new User(1,"Leonardo 01","test 01"));
-        users.add(new User(2,"Leonardo 02","test 02"));
-        users.add(new User(3,"Leonardo 03","test 03"));
-        users.add(new User(4,"Leonardo 04","test 04"));
+        users.add(new User(1,"Leonardo 01","https://randomuser.me/api/portraits/lego/1.jpg"));
+        users.add(new User(2,"Leonardo 02","https://randomuser.me/api/portraits/lego/2.jpg"));
+        users.add(new User(3,"Leonardo 03","https://randomuser.me/api/portraits/lego/3.jpg"));
+        users.add(new User(4,"Leonardo 04","https://randomuser.me/api/portraits/lego/4.jpg"));
 
         return users;
     }

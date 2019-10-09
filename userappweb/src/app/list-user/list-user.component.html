@@ -7,18 +7,18 @@
         </tr>
     </thead>
     <tbody>
-        <div *ngFor="let user of listUser">
-        <tr>
-            <td class="text-center"><img class="avatar" src="{{user.avatar}}" alt="avatar"></td>
-            <td class="text-center">{{user.name}}</td>
-            <td >
-                <div class="table-icon-box">
-                    <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
-                    <div class="table-icon"><a href="#"><i class="fas fa-user-edit"></i></a></div>
-                </div>
-            </td>
-        </tr>
-    </div>
-      
+
+            <tr *ngFor="let user of listUser">
+                <td class="text-center"><img class="avatar" src="{{user.avatar}}" alt="avatar"></td>
+                <td class="text-center">{{user.name}}</td>
+                <td>
+                    <div class="table-icon-box">
+                        <div class="table-icon"><a href="#"><i class="fas fa-user-minus"></i></a></div>
+                        <div class="table-icon"><a href="#"><i class="fas fa-user-edit"></i></a></div>
+                    </div>
+                </td>
+            </tr>
+
+
     </tbody>
 </table>
